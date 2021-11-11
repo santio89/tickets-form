@@ -38,23 +38,23 @@
         <form name="tickets" method="POST" data-netlify="true">
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id=email placeholder="" name="email">
+              <input required type="email" class="form-control" id="email" placeholder="email@ejemplo.com" name="email">
             </div>
             <div class="form-group">
                 <label for="nombre">Nombre</label>
-                <input type="nombre" class="form-control" id="nombre" placeholder="" name="nombre">
+                <input required autocomplete="off" type="nombre" class="form-control" id="nombre" placeholder="" name="nombre">
             </div>
             <div class="form-group">
                 <label for="piso">Piso y Sector</label>
-                <input type="text" class="form-control" id="piso" placeholder="" name="sector">
+                <input required autocomplete="off" type="text" class="form-control" id="piso" placeholder="" name="sector">
             </div>
             <div class="form-group">
                 <label for="interno">Número de interno</label>
-                <input type="text" class="form-control" id="interno" placeholder="" name="interno">
+                <input required autocomplete="off" type="text" class="form-control" id="interno" placeholder="" name="interno">
             </div>
             <div class="form-group">
               <label for="inconveniente">Tipo de inconveniente</label>
-              <select class="form-control" id="inconveniente" size="7" name="inconveniente"> 
+              <select required autocomplete="off" class="form-control" id="inconveniente" size="7" name="inconveniente"> 
                 <option value="computadora">Computadora</option>
                 <option value="monitor">Monitor</option>
                 <option value="equilatero">Equilatero</option>
@@ -66,14 +66,15 @@
             </div>
             <div class="form-group">
                 <label for="problema">Descripción del problema</label>
-                <textarea class="form-control" id="problema" rows="3" name="descripcion"></textarea>
+                <textarea required autocomplete="off" class="form-control" id="problema" rows="3" name="descripcion"></textarea>
             </div>
             <div class="form-group submit">
-                <input type="reset" value="RESET" id="reset" class="form-control">
-                <input type="submit" value="ENVIAR" id="enviar" class="form-control">
+                <input required autocomplete="off" type="reset" value="RESET" id="reset" class="form-control">
+                <input required autocomplete="off" type="submit" value="ENVIAR" id="enviar" class="form-control">
             </div>
           </form>
     </div>
+
 </section>
         
 <footer>

@@ -25,7 +25,7 @@ nav {
 
 .subtitulo {
   text-align: center;
-  font-size: calc(.4rem + 1vw);
+  font-size: calc(.4rem + 1.2vw);
   color: #333333;
 }
 
@@ -47,7 +47,8 @@ nav {
 }
 
 form {
-  margin: 3rem 0;
+  margin: 4rem 0;
+  font-size: 1rem;
 }
 
 form div {
@@ -77,7 +78,8 @@ form label {
   display: inline-block;
   max-width: 40%;
   font-weight: 800;
-  margin: 0 2rem;
+  font-size: 1.2em;
+  margin: 0 calc(.4rem + 1vw);
 }
 
 #reset:hover, #enviar:hover {
@@ -86,6 +88,10 @@ form label {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background: black;
 }
 

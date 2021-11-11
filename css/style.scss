@@ -86,24 +86,22 @@ form{
     }
 }
 
-
-
-
 footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     background: black;
     p{
         font-size: calc(.5rem + .5vw);
         background: black;
         color: white;
-        text-align: center;
+        text-align: left;
         margin: 0;
     }
 } 
-    
+
+.info{
+    line-height: 1.2;
+    font-size: .8em;
+}
 
 /* Scrollbar */
 

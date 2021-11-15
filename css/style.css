@@ -39,7 +39,7 @@ nav {
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   margin: auto;
-  font-size: calc(.5rem + 3vw);
+  font-size: calc(1.5rem + 2.5vw);
 }
 
 .navbar {
@@ -92,10 +92,11 @@ form label {
 footer {
   width: 100%;
   background: black;
+  font-size: calc(.5rem + .5vw);
 }
 
 footer p {
-  font-size: calc(.5rem + .5vw);
+  font-size: 1em;
   background: black;
   color: white;
   text-align: left;

@@ -56,7 +56,7 @@
 <section>
     <div class="container">
         <p class="subtitulo">Complete el formulario y será contactado a la brevedad</p>
-        <form name="tickets" method="POST" data-netlify="true">
+        <form name="tickets" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <div class="form-group">
               <label for="email">Email</label>
               <input required type="email" class="form-control" id="email" placeholder="email@ejemplo.com" name="email">
@@ -93,6 +93,7 @@
                 <label for="file">Puede enviar una captura del error</label>
                 <input type="file" class="form-control" id="file" name="archivo">
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <div class="form-group submit">
                 <input required autocomplete="off" type="reset" value="RESET" id="reset" class="form-control">
                 <input required autocomplete="off" type="submit" value="ENVIAR" id="enviar" class="form-control">

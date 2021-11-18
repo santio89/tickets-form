@@ -76,6 +76,11 @@ form label {
   overflow-y: auto;
 }
 
+.recaptcha {
+  display: inline-block;
+  margin: auto;
+}
+
 #reset, #enviar {
   display: inline-block;
   max-width: 40%;

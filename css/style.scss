@@ -88,7 +88,7 @@ form{
     max-width: 40%;
     font-weight: 800;
     font-size: 1.2em;
-    margin: 0 calc(.4rem + 1vw);
+    margin: 0 calc(.4rem + 1vw + 1vh);
     &:hover{
         box-shadow: 0 0 0 2px red;
     }

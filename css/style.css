@@ -79,6 +79,7 @@ form label {
 .recaptcha {
   display: inline-block;
   margin: auto;
+  text-align: center;
 }
 
 #reset, #enviar {

@@ -30,10 +30,6 @@ nav {
   color: #333333;
 }
 
-.submit {
-  text-align: center;
-}
-
 .contactoSoporte {
   color: red;
   font-family: 'Roboto', sans-serif;
@@ -92,12 +88,17 @@ form label {
       align-self: center;
 }
 
+.submit {
+  text-align: center;
+  margin-top: calc(.2rem + 1vw + 1vh);
+}
+
 #reset, #enviar {
   display: inline-block;
   max-width: 40%;
   font-weight: 800;
   font-size: 1.2em;
-  margin: 0 calc(.4rem + 1vw + 1vh);
+  margin: 0 calc(.4rem + 1vw);
 }
 
 #reset:hover, #enviar:hover {

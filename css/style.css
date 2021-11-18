@@ -49,6 +49,16 @@ nav {
 }
 
 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 2rem 0;
   font-size: 1rem;
 }
@@ -77,9 +87,9 @@ form label {
 }
 
 .recaptcha {
-  display: inline-block;
-  margin: auto;
-  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 #reset, #enviar {
